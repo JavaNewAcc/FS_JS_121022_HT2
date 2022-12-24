@@ -1,7 +1,5 @@
 let width = 0;
 let height = 0;
-let i = 0;
-let j = 0;
 
 width = parseInt(prompt("Please enter width"));
 height = parseInt(prompt("Please enter height"));
@@ -15,7 +13,7 @@ else if (width <= 0 || height <= 0) {
 }
 
 else {
-    for (i = 0; i < height; i++) {
+    for (let i = 0; i < height; i++) {
             console.log("*".repeat(width));
     }
 }

@@ -15,7 +15,7 @@ else if (startNum > endNum) {
 }
 
 else {
-    for (i = startNum; i <= endNum; i++) {
+    for (let i = startNum; i <= endNum; i++) {
         if (i == 0) { continue; }
         else {
             if (i % 2 == 0) {

@@ -1,7 +1,6 @@
 let startNum = 0;
 let endNum = 0;
 let res = 0;
-let i = 0;
 
 startNum = parseInt(prompt("Please enter the first number"));
 endNum = parseInt(prompt("Please enter the second number"));
@@ -17,7 +16,7 @@ else if (startNum > endNum) {
 }
 
 else {
-    for (i = startNum; i <= endNum; i++) {
+    for (let i = startNum; i <= endNum; i++) {
         res += i;
     }
     console.log("The sum of figures between " + startNum + " and " + endNum + " is: " + res);
